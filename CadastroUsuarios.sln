@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroUsuarios.Domain", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroUsuarios.Persistence", "CadastroUsuarios.Persistence\CadastroUsuarios.Persistence.csproj", "{D30F15C3-D98F-43E9-93D7-EFDA6ECEFE94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroUsuarios.Repository", "CadastroUsuarios.Repository\CadastroUsuarios.Repository.csproj", "{55FA740D-AAFE-404F-B7CA-67E8174D4C24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D30F15C3-D98F-43E9-93D7-EFDA6ECEFE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D30F15C3-D98F-43E9-93D7-EFDA6ECEFE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D30F15C3-D98F-43E9-93D7-EFDA6ECEFE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55FA740D-AAFE-404F-B7CA-67E8174D4C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55FA740D-AAFE-404F-B7CA-67E8174D4C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55FA740D-AAFE-404F-B7CA-67E8174D4C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55FA740D-AAFE-404F-B7CA-67E8174D4C24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

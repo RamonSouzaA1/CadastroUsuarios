@@ -11,6 +11,7 @@ namespace CadastroUsuarios.Repositorio
         void Adicionar(TTipo objeto);
         void Alterar(TTipo objeto);
         List<TTipo> Listar();
-        void Excluir(TTipo objeto);
+        void Excluir(int id);
+        TTipo GetById(int id);
     }
 }
